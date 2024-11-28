@@ -1,5 +1,147 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .section {
+            width: 48%;
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #333;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin: 10px 0;
+        }
+        .projects, .skills {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .project, .skill {
+            background-color: #e9e9e9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+            .section {
+                width: 100%;
+            }
+            .projects, .skills {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ryanjames Ciriaco</h1>
+    <p>Web Developer | Designer | Creative Enthusiast</p>
+</header>
+
+<div class="main-content">
+    <div class="section">
+        <h2>About Me</h2>
+        <p>Hello! I'm Ryanjames Ciriaco, a passionate web developer with a strong interest in building intuitive and responsive websites. I have experience with HTML, CSS, JavaScript, and various web development frameworks.</p>
+    </div>
+
+    <div class="section">
+        <h2>Contact</h2>
+        <p>You can reach me through:</p>
+        <ul>
+            <li>ryva.ciriaco.au@gmail.com</li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">https://github.com/ryanjamesvaldez</a></li>
+            <li>GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/ryanjamesvaldez</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="main-content">
+    <div class="section">+
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1: Portfolio Website</h3>
+                <p>A personal portfolio website to showcase my web development projects and skills. Built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: E-Commerce Website</h3>
+                <p>An e-commerce platform with a shopping cart and checkout functionality. Developed using React and Firebase.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Proficient in creating semantic, well-structured HTML documents.</p>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Skilled in styling websites with responsive layouts using CSS and Flexbox/Grid.</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Experience with vanilla JavaScript as well as frameworks like React.</p>
+            </div>
+            <div class="skill">
+                <h3>Git & GitHub</h3>
+                <p>Comfortable with version control and collaboration using Git and GitHub.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
